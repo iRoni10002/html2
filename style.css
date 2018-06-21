@@ -1,0 +1,273 @@
+@font-face {
+    font-family: Menu;
+    src: url(font/DinDisplayPro.ttf);
+}
+@font-face {
+    font-family: MenuLight;
+    src: url(font/pfdindisplaypro-light.ttf);
+}
+
+.head {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.menu {
+    width: 1330px;
+    height: 40px;
+    margin: 0 auto;
+}
+.menu ul {
+    display: block;
+}
+.menu ul li {
+    display: inline-block;
+    height: 40px;
+    padding: 0px 41px 0px 33px;
+    font-size: 14px;
+    font-family: Menu;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    background: url(image/menu-point-icon.png) right 18px no-repeat;
+}
+.menu ul li:first-child {
+    padding-left: 0px !important;
+}
+.menu a {
+    color: #fff;
+}
+.menu-icon {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+.menu-icon a{
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 12px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 18px;
+}
+.menu-icon a:hover {
+    background-position: center bottom;
+}
+.vk {
+    background-image: url("image/vk_icon.png")
+}
+.fcbk {
+    background-image: url("image/facebook_icon.png")
+}
+.inst {
+    background-image: url("image/inst_icon.png")
+}
+
+.content {
+    width: 100%;
+    height: 250px;
+    background: url('image/bg_header.png') center top repeat-x;
+}
+.logo {
+    position: absolute;
+    width: 170px;
+    height: 85px;
+    left: 10px;
+    top: 75px;
+}
+.contakt {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 290px;
+    top: 97px;
+}
+.contakt div {
+    font-size: 20px;
+    font-family: Menu;
+    height: 20px;
+}
+.contakt div span {
+    color: #8B95A1;
+    font-family: MenuLight;
+}
+.mobile {
+    position: absolute;
+    width: 225px;
+    height: 47px;
+    left: 640px;
+    top: 95px;
+    padding-top: 3px;
+    background: url(image/mobile.png) 0 0 no-repeat;
+}
+.mobile:hover {
+    background: url(image/mobile.png) 0 -50px no-repeat;
+}
+.mobile p {
+    font-size: 17px;
+    font-family: Menu;
+    padding-left: 70px;
+}
+.mobile a {
+    font-size: 11px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #FF6619;
+    margin-left: 70px;
+    margin-top: 2px;
+    color: #FF6619;
+    line-height: 14px;
+    padding-bottom: -3px;
+    font-family: Arial;
+}
+.block_lk {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    right: 200px;
+    top: 100px;
+    font-size: 17px;
+    display: inline; 
+    font-family: Arial;
+}
+.block_lk div {
+    display: inline;
+}
+.block_lk a {
+    font-size: 11px;
+    text-decoration: none;
+    border-bottom: 1px dotted #FF6619;
+    display: inline;
+    color: #FF6619;
+}
+.block_lk span {
+    color: #8B95A1;
+    font-size: 11px;
+}
+.buy {
+    position: absolute;
+    height: 55px;
+    right: 10px;
+    top: 97px;
+}
+.buy div {
+    display: block;
+    /* float: left; */
+    font-size: 17px;
+    font-family: Arial;
+    text-align: right;
+    padding-right: 25px;
+    height: 22px;
+}
+.buy a {
+    color: #FF6619;
+    font-size: 11px;
+    border-bottom: 1px solid #FF6619;
+    font-family: Arial;
+    margin-top: 5px;
+}
+.buy div span {
+    font-size: 20px;
+}
+
+.bot-menu {
+    position: absolute;
+    top: 200px;
+    left: 11px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+}
+.bot-menu ul li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 100%;
+    min-width: 82px;
+}
+.bot-menu ul li a {
+    font-family: Menu;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+}
+.bot-menu ul li a:hover > .bot-menu-icon {
+    background-position: center center;
+    color: #FF6619;
+}
+
+.bot-menu-icon {
+    background-position: center top;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+}
+.bot-menu-icon:first-child {
+    margin-left: 0 !important;
+}
+#bm-1 {
+    background-image: url(image/news_menu.png);
+}
+#bm-2 {
+    background-image: url(image/biz_lanch_menu.png);
+}
+#bm-3 {
+    background-image: url(image/sashimi_menu.png);
+}
+#bm-4 {
+    background-image: url(image/rolls_menu.png);
+}
+#bm-5 {
+    background-image: url(image/seti_menu.png);
+}
+#bm-6 {
+    background-image: url(image/salat_menu.png);
+}
+#bm-7 {
+    background-image: url(image/sup_menu.png);
+}
+#bm-8 {
+    background-image: url(image/goryachee_menu.png);
+}
+#bm-9 {
+    background-image: url(image/napitki_menu.png);
+}
+#bm-10 {
+    background-image: url(image/picca_menu.png);
+}
+#bm-11 {
+    background-image: url(image/pitstsa-chb.jpg);
+}
+#bm-12 {
+    background-image: url(image/desert_menu.png);
+}
+#bm-13 {
+    background-image: url(image/vok_menu.png);
+}
+#bm-14 {
+    background-image: url(image/detyam_menu.png);
+}
+#bm-15 {
+    background-image: url(image/dopolnitelno_.png);
+}
+
+
+
+
+
+
+.clear {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 130px;
+    color: #8B95A1;
+    font-family: Menu;
+}
+
+
+
